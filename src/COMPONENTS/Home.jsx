@@ -16,7 +16,7 @@ const Home = () => {
         </div>
       
         <div class="section2">
-            <h1 class="name">Hello, I'm MAGDALENE XAVIER</h1>
+            <h1 class="name">Hello, I'm MAGDALENE XAVIER FERNANDEZ</h1>
             <h2 class="designation">FRONT-END DEVELOPER</h2>
             <h2 class="description">Where Passion Meets Pixel Perfection</h2>
             <br/>
