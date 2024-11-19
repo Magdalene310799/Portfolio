@@ -94,19 +94,12 @@
     font-size: 30px;
     text-decoration: none;
     display: inline-block;
-    padding: 15px;
-    
-    
+    padding: 15px;   
 }
 .section2 span{
     color: rgb(5, 2, 18);
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.social{
-    
-    gap: 2rem;
-    
 }
 
 /* ABOUT PAGE */

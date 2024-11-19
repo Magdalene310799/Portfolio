@@ -25,7 +25,7 @@ const Home = () => {
               Explore my work and get to know more about my journey and skills.</p> 
     <br/><br/><br/><br/>
     <div className="social"> 
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" style={{ color: '#0A66C2', textDecoration: 'none' }}>
+            <a href="https://github.com/Magdalene310799/Portfolio" target="_blank" rel="noopener noreferrer" style={{ color: '#0A66C2', textDecoration: 'none' }}>
             <FontAwesomeIcon icon={faGithub} />
             <span>GitHub</span>
             </a>
