@@ -29,7 +29,7 @@ const Education = () => {
       degree: "Postgraduate in Physics",
       year: "2022 - 2024",
       percentage: "85%",
-      summary: "Specialized in Electronics with a project on gas sensors.",
+      summary: "Expertise in Electronics, complemented by cutting-edge research in Material Science .",
       icon: <FaGraduationCap />,
     },
     {

@@ -91,15 +91,22 @@
 }
 .section2 a{
     color: white;
-    font-size: medium;
+    font-size: 30px;
     text-decoration: none;
-    margin-left: 650px;
-    text-align: left;
+    display: inline-block;
+    padding: 15px;
+    
+    
 }
 .section2 span{
-    color: white;
-    font-size: medium;
+    color: rgb(5, 2, 18);
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.social{
+    
+    gap: 2rem;
+    
 }
 
 /* ABOUT PAGE */
@@ -174,31 +181,6 @@
     overflow: hidden;
     height: 580px;
 }
-/* .carousel-slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 3s ease-in-out;
-} */
-/* .carousel-slide.active {
-    opacity: 1;
-}
-.carousel-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-} */
-/* .carousel-controls {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-} */
-
 
 /* EDUCATION PAGE */
 
@@ -468,4 +450,237 @@
     background-color: #0d1142;
 }
 
+/* TESTIMONIALS PAGE */
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+    background-color: azure;
+}
+.testimonials-container h1{
+    color: #014525;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px rgb(247, 8, 191);
+}  
+.testimonials-container h2{
+    margin-top: -33px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d31460;
+    text-shadow: 1px 1px #000;
+    margin-bottom: 50px;
+}
+.testimonial-card {
+    background-color: lavenderblush;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    padding: 1.5rem;
+    margin: 20px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgb(6, 73, 51);
+    position: relative;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 6s ease, transform 0.6s ease;
+} 
+.slide-from-left {
+    animation: slideInLeft 3s forwards;
+} 
+.slide-from-right {
+    animation: slideInRight 3s forwards;
+}
+/* .testimonial-card :hover ::after{
+    transform: scale(1.5);
+} */
+.testimonial-image-wrapper {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+} 
+.testimonial-image-wrapper:hover {
+    transform: scale(1.5);
+} 
+.testimonial-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonial-content h3 {
+    font-size: 15px;
+    margin: 5px;
+    text-align: justify;
+    font-weight: 400;
+    font-style: italic;
+    font-family: cursive;   
+}
+  
+.testimonial-author {
+    font-size: 17px;
+    text-align: center;
+    color: #1400a7;
+    padding-left: 400px;
+    line-break: loose;
+}
+  
+  /* Animations */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
+@keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
+
+
+/* CONTACT PAGE */
+  
+.contact-page {
+    margin: 0;
+    padding: 0;
+    background-color: #072222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contact-page h1{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 12px;
+    color: cornsilk;
+    text-shadow: 3px 1px rgb(12, 247, 239);
+}  
+.contact-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    width: 100%;
+}
+.left-section {
+    flex: 1;
+    text-align: center;
+} 
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: -50px;
+    object-fit: cover;
+} 
+.contact-info {
+    text-align: left;
+    margin-left: 40px;
+} 
+.info-item {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+} 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 100px;
+} 
+.social-links a {
+    font-size: 1.3rem;
+    text-decoration: none;
+} 
+
+
+
+
+
+  /* Right Section */
+.right-section {
+    flex: 2;
+    text-align: left;
+    margin-left: 5px;
+} 
+.right-section h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(116, 255, 3);
+} 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+} 
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #c4b9b9;
+    color: black;
+}
+.contact-form button {
+    width: 100px;
+    padding: 0.5rem;
+    border: 2px solid black ;
+    border-radius: 5px;
+    background-color: #35daff;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 7px;
+}
+  
+  .contact-form button:hover {
+    background-color: #0915fc;
+    transform: scale(1.1);
+}
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    font-size: 0.9rem;
+}
   

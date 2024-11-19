@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import mypic from '../images/mypic'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
@@ -24,18 +24,16 @@ const Home = () => {
             <p class="para2">I'm a passionate developer with a knack for creating innovative, elegant and impactful websites. 
               Explore my work and get to know more about my journey and skills.</p> 
     <br/><br/><br/><br/>
-            <a href="https://www.facebook.com/magdalene.xavierfernandez?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faFacebook} /> {/* Facebook Icon */}
-            <span>Facebook</span> {/* Optional text */}
-            </a>  
-            <a href="https://www.instagram.com/magdalenexavierfernandez?igsh=MWh1bW43YnF3Y21lOQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" style={{ color: '#C13584', textDecoration: 'none' }}>
-            <FontAwesomeIcon icon={faInstagram} />
-            <span>Instagram</span>
+    <div className="social"> 
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" style={{ color: '#0A66C2', textDecoration: 'none' }}>
+            <FontAwesomeIcon icon={faGithub} />
+            <span>GitHub</span>
             </a>
             <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" style={{ color: '#0A66C2', textDecoration: 'none' }}>
             <FontAwesomeIcon icon={faLinkedin} />
             <span>LinkedIn</span>
             </a>
+        </div>   
         </div>
     </div>
   </div>
