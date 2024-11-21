@@ -1,13 +1,13 @@
 import './App.css';
-import Navbar from './COMPONENTS/Navbar';
+import Navbar from './Components/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import About from './COMPONENTS/About';
-import Education from './COMPONENTS/Education';
-import Skills from './COMPONENTS/Skills';
-import Projects from './COMPONENTS/Projects';
-import Testimonials from './COMPONENTS/Testimonials';
-import Contact from './COMPONENTS/Contact';
-import Home from './COMPONENTS/Home';
+import About from './Components/About';
+import Education from './Components/Education';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
+import Testimonials from './Components/Testimonials';
+import Contact from './Components/Contact';
+import Home from './Components/Home';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <img src={"/assets/images/magdu.png"}/>
       <Routes>
        <Route path='/' element={<Home/>}/>
        <Route path='/about' element={<About/>}/>
