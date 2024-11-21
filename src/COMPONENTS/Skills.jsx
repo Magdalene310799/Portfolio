@@ -8,7 +8,10 @@ const Skills = () => {
       { name: "CSS", logo: "https://cdn-icons-png.flaticon.com/512/732/732190.png" },
       { name: "JavaScript", logo: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png" },
       { name: "React", logo: "https://cdn-icons-png.flaticon.com/512/919/919851.png" },
-      {name: "Bootstrap", logo: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png" },
+      { name: "Bootstrap", logo: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png" },
+      { name: "Python", logo: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png" },  
+      { name: "Django", logo: "https://cdn-icons-png.flaticon.com/512/919/919854.png" },  
+      { name: "MongoDB", logo: "https://cdn-icons-png.flaticon.com/512/919/919836.png" },
     ],
     "Tools and Software": [
       { name: "Git", logo: "https://cdn-icons-png.flaticon.com/512/25/25231.png" },
