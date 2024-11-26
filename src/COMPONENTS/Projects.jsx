@@ -11,6 +11,7 @@ const projects = {
         applications: "HTML, CSS, JAVASCRIPT, BOOTSTRAP",
         period: "Oct 2024 - Nov 2024",
         abstract: "A Tourism Website showcasing my skills, projects, and experience using front-end.",
+        description: 'lorem ipsum',
         link: "https://github.com/yourportfolio",
       },
       {
@@ -19,6 +20,7 @@ const projects = {
         applications: "HTML, CSS, BOOTSTRAP, REACT",
         period: "Nov 2024",
         abstract: "A web app that provides real-time weather updates using OpenWeather API.",
+        description: 'lorem ipsum',
         link: "https://github.com/yourweatherapp",
       },
     ],
@@ -32,6 +34,7 @@ const projects = {
         applications: "SILAR, XRD, UV Spectrum",
         period: "Apr 2024 - Aug 2024",
         abstract: "An e-commerce platform featuring a shopping cart, payment gateway, and order tracking.",
+        description: '',
         link: "https://github.com/yourecommerce",
       },
       {
@@ -40,6 +43,7 @@ const projects = {
         applications: "CALIOP, CALIPSO, MODIS",
         period: "Jan 2022 - May 2022",
         abstract: "A platform for creating, editing, and sharing blog posts with an interactive UI.",
+        description: 'lorem ipsum',
         link: "https://github.com/yourblog",
       },
     ],
@@ -117,7 +121,7 @@ const Project = () => {
               <strong>Period:</strong> {selectedProject.period}
             </p>
             <p>
-              <strong>Abstract:</strong> {selectedProject.abstract}
+              <strong>Description:</strong> {selectedProject.description}
             </p>
             <button onClick={() => window.open(selectedProject.link, "_blank")}>
               View Project

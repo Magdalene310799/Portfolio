@@ -2,11 +2,7 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaGraduationCap, FaSchool, FaLaptopCode } from "react-icons/fa";
-import emblem1 from '../images/emblem1'
-import emblem2 from '../images/emblem2'
-import emblem3 from '../images/emblem3'
-import emblem4 from '../images/emblem4'
-import emblem5 from '../images/emblem5'
+import './style.css';
 
 const Education = () => {
   const educationData = [
@@ -25,7 +21,7 @@ const Education = () => {
       key: 2,
       date: "2022 - 2024",
       institution: "St. Xavier's College, Thumba, Trivandrum",
-      emblem: "https://via.placeholder.com/50",
+      emblem: "emblem4",
       degree: "Postgraduate in Physics",
       year: "2022 - 2024",
       percentage: "85%",
@@ -36,7 +32,7 @@ const Education = () => {
       key: 3,
       date: "2019 - 2022",
       institution: "All Saints' College, Trivandrum",
-      emblem: "https://via.placeholder.com/50",
+      emblem: "emblem3",
       degree: "Bachelor of Science in Physics",
       year: "2016 - 2020",
       percentage: "88%",
@@ -47,7 +43,7 @@ const Education = () => {
       key: 4,
       date: "2015 - 2017",
       institution: "Carmel Girls HSS, Vazhuthacaud, Trivandrum",
-      emblem: "https://via.placeholder.com/50",
+      emblem: "emblem2",
       degree: "12th Grade (Bio-Maths)",
       year: "2015 - 2017",
       percentage: "92%",
@@ -58,7 +54,7 @@ const Education = () => {
       key: 4,
       date: "2014 - 2015",
       institution: "St. Roch's HS, Thope, Trivandrum",
-      emblem: "https://via.placeholder.com/50",
+      emblem: "emblem1",
       degree: "10th Grade",
       year: "2014 - 2015",
       percentage: "96%",
@@ -84,7 +80,7 @@ const Education = () => {
                 
                   <h1 class="education-degree">{edu.degree}</h1>
                   <div class="education-header">
-                    <img src={emblem1} alt={`${edu.institution} emblem`} class="education-emblem"/>
+                    <img src={process.env.PUBLIC_URL + "/assets/images/" +edu.emblem} alt={`${edu.institution} emblem`} class="education-emblem"/>
                     <h1 class="education-institution">{edu.institution}</h1>
                   </div>
                   

@@ -11,16 +11,11 @@ import Home from './Components/Home';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-
-
-
-
-
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <img src={"/assets/images/magdu.png"}/>
+      {/* <img src={process.env.PUBLIC_URL + '/logo192.png'} /> */}
       <Routes>
        <Route path='/' element={<Home/>}/>
        <Route path='/about' element={<About/>}/>

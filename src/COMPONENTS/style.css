@@ -216,6 +216,7 @@
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 } 
 .education-emblem {
     width: 50px;
@@ -239,6 +240,10 @@
     font-style: italic;
     color: #691010;
 }  
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date{
+    text-align: left;
+
+}
 
 /* SKILLS PAGE */
 
@@ -353,7 +358,7 @@
 .project-card {
     margin: 10px;
     width: 45%;
-    background-color: palegoldenrod;
+    background-color: rgba(211, 248, 228, 0.881);
     border: 2px solid black ;
     border-radius: 10px;
     padding: 30px;
