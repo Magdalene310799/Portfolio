@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.43fd36ff.css",
-    "main.js": "/Portfolio/static/js/main.5ce8eff3.js",
-    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/photo1": "/Portfolio/static/media/photo1.29eb1bb08c44b50693f8",
-    "static/media/mypic": "/Portfolio/static/media/mypic.bfcf3bac08f4c9128ad8",
-    "static/media/photo2": "/Portfolio/static/media/photo2.e9a7b28bebd7a2984968",
-    "static/media/sunilsir": "/Portfolio/static/media/sunilsir.a171794b50ad821f764f",
-    "static/media/photo3": "/Portfolio/static/media/photo3.f21bb63ed73638f04083",
-    "static/media/magdu.jpg": "/Portfolio/static/media/magdu.74b95667df91cf22bef9.jpg",
-    "static/media/emblem5": "/Portfolio/static/media/emblem5.11f4be4613de440a8d9c",
-    "static/media/emblem1": "/Portfolio/static/media/emblem1.3e88843f2d344b5131cb",
-    "static/media/emblem2": "/Portfolio/static/media/emblem2.f020bf9df7a7a3633c48",
-    "static/media/emblem3": "/Portfolio/static/media/emblem3.9431366b738aebcf4935",
-    "static/media/emblem4": "/Portfolio/static/media/emblem4.3ab5d6392402dd227d3a",
-    "index.html": "/Portfolio/index.html",
-    "main.43fd36ff.css.map": "/Portfolio/static/css/main.43fd36ff.css.map",
-    "main.5ce8eff3.js.map": "/Portfolio/static/js/main.5ce8eff3.js.map",
-    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "./public/static/css/main.4563feae.css",
+    "main.js": "./public/static/js/main.3d17b628.js",
+    "static/js/453.1407b060.chunk.js": "./public/static/js/453.1407b060.chunk.js",
+    "static/media/photo1": "./public/static/media/photo1.29eb1bb08c44b50693f8",
+    "static/media/mypic": "./public/static/media/mypic.bfcf3bac08f4c9128ad8",
+    "static/media/photo2": "./public/static/media/photo2.e9a7b28bebd7a2984968",
+    "static/media/photo3": "./public/static/media/photo3.f21bb63ed73638f04083",
+    "static/media/magdu.jpg": "./public/static/media/magdu.74b95667df91cf22bef9.jpg",
+    "index.html": "./public/index.html",
+    "main.4563feae.css.map": "./public/static/css/main.4563feae.css.map",
+    "main.3d17b628.js.map": "./public/static/js/main.3d17b628.js.map",
+    "453.1407b060.chunk.js.map": "./public/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43fd36ff.css",
-    "static/js/main.5ce8eff3.js"
+    "static/css/main.4563feae.css",
+    "static/js/main.3d17b628.js"
   ]
 }
