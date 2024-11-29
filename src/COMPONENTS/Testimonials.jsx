@@ -22,7 +22,7 @@ const Testimonial = () => {
         >
           <div className="testimonial-image-wrapper col-12 col-md-6 col-sm-4 col-xs-4">
             <img
-              src={process.env.PUBLIC_URL + v.image}
+              src={v.image}
               alt={v.name}
               className="testimonial-image"
             />

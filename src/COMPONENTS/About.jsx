@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import photo1 from '../images/photo1' // Add your first photo here
-import photo2 from '../images/photo2'
-import photo3 from '../images/photo3' // Add your third photo here
+import photo1 from '../images/photo1.jpg' // Add your first photo here
+import photo2 from '../images/photo2.jpg'
+import photo3 from '../images/photo3.jpg' // Add your third photo here
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 

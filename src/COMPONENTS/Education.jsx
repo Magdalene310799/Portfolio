@@ -12,7 +12,7 @@ const Education = () => {
       key: 1,
       date: "2024 - Present",
       institution: "Networkz Systems, Trivandrum",
-      emblem: "emblem5",
+      emblem: "emblem5.jpg",
       degree: "Python Full Stack Development",
       year: "2024 - Present",
       percentage: "Ongoing",
@@ -23,7 +23,7 @@ const Education = () => {
       key: 2,
       date: "2022 - 2024",
       institution: "St. Xavier's College, Thumba, Trivandrum",
-      emblem: "emblem4",
+      emblem: "emblem4.jpg",
       degree: "Postgraduate in Physics",
       year: "2022 - 2024",
       percentage: "85%",
@@ -34,7 +34,7 @@ const Education = () => {
       key: 3,
       date: "2019 - 2022",
       institution: "All Saints' College, Trivandrum",
-      emblem: "emblem3",
+      emblem: "emblem3.jpg",
       degree: "Bachelor of Science in Physics",
       year: "2016 - 2020",
       percentage: "88%",
@@ -45,7 +45,7 @@ const Education = () => {
       key: 4,
       date: "2015 - 2017",
       institution: "Carmel Girls HSS, Vazhuthacaud, Trivandrum",
-      emblem: "emblem2",
+      emblem: "emblem2.jpg",
       degree: "12th Grade (Bio-Maths)",
       year: "2015 - 2017",
       percentage: "92%",
@@ -56,7 +56,7 @@ const Education = () => {
       key: 4,
       date: "2014 - 2015",
       institution: "St. Roch's HS, Thope, Trivandrum",
-      emblem: "emblem1",
+      emblem: "emblem1.jpg",
       degree: "10th Grade",
       year: "2014 - 2015",
       percentage: "96%",
@@ -82,7 +82,7 @@ const Education = () => {
                 
                   <h1 class="education-degree">{edu.degree}</h1>
                   <div class="education-header">
-                    <img src={process.env.PUBLIC_URL + "/assets/images/" +edu.emblem} alt={`${edu.institution} emblem`} class="education-emblem"/>
+                    <img src={"/assets/images/" +edu.emblem} alt={`${edu.institution} emblem`} class="education-emblem"/>
                     <h1 class="education-institution">{edu.institution}</h1>
                   </div>
                   

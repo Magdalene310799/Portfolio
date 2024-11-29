@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import mypic from '../images/mypic'
+import mypic from '../images/mypic.jpg'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 // 
