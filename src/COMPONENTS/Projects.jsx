@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 const projects = {
   section1: {
@@ -68,9 +70,9 @@ const Project = () => {
     <div className="project-container">
       {/* Section 1: Frontend Projects */}
       <h2 className="section-title">{projects.section1.title}</h2>
-      <div className="project-section">
+      <div className="project-section row"> 
         {projects.section1.items.map((project, index) => (
-          <div key={index} className="project-card">
+          <div key={index} className="project-card col">
             <h2>{project.title}</h2>
             <h4>{project.subtitle}</h4>
             <p>
@@ -89,9 +91,9 @@ const Project = () => {
 
       {/* Section 2: Full-Stack Projects */}
       <h2 className="section-title">{projects.section2.title}</h2>
-      <div className="project-section">
+      <div className="project-section row">
         {projects.section2.items.map((project, index) => (
-          <div key={index} className="project-card">
+          <div key={index} className="project-card col">
             <h2>{project.title}</h2>
             <h4>{project.subtitle}</h4>
             <p>

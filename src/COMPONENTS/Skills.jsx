@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 const Skills = () => {
   const skillsData = {
@@ -48,7 +50,7 @@ const Skills = () => {
           <h2 className="section-title">{section}</h2>
           <div className="skills-cards">
             {skills.map((skill, index) => (
-              <div key={index} className="skill-card">
+              <div key={index} className="skill-card ">
                 <img src={skill.logo} alt={`${skill.name} logo`} className="skill-logo" />
                 <p className="skill-name">{skill.name}</p>
               </div>

@@ -10,12 +10,12 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 const Home = () => {
   return (
   <div>
-    <div class="portion1">
-        <div class="section1">
+    <div class="row">
+        <div class="section1 col">
             <img src={mypic} alt="my profile" style={{width:'300px', height:'437px'}} class="rounded-circle"/>
         </div>
       
-        <div class="section2">
+        <div class="section2 col">
             <h1 class="name">Hello, I'm MAGDALENE XAVIER</h1>
             <h2 class="designation">FRONT-END DEVELOPER</h2>
             <h2 class="description">Where Passion Meets Pixel Perfection</h2>

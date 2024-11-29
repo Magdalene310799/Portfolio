@@ -5,14 +5,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faPinterest, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
-// 
+
 const Contact = () => {
   return (
+    <div class="container-fluid">
     <div className="contact-page">
       <h1>BRIDGE THE GAP</h1>
-      <div className="contact-container">
+      <div className="contact-container row">
         {/* Left Section */}
-        <div className="left-section">
+        <div className="left-section col">
           <img src={magdu} alt="Your Profile" className="profile-pic" />
           <div className="contact-info">
             <div className="info-item">
@@ -28,7 +29,7 @@ const Contact = () => {
         </div>
         
         {/* Right Section */}
-        <div className="right-section">
+        <div className="right-section col">
           <h2>Get in Touch</h2>
           <form className="contact-form">
             <input type="text" placeholder="Your Name" />
@@ -62,6 +63,7 @@ const Contact = () => {
           </div>
       {/* Footer */}
       <footer className="footer">© 2024 Your Name. All rights reserved.</footer>
+    </div>
     </div>
   );
 };

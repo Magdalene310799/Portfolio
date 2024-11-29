@@ -23,7 +23,7 @@
 }
 .section1{
     flex: 1;
-    background-color: rgb(212, 212, 248);
+    background-color: rgb(3, 3, 14);
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -160,14 +160,36 @@
     font-weight: 540;
 }
 .carousel-section {
-    margin-top: 200px;
-    max-width: 35%;
-    max-height: 50%;
+    /* margin-top: 200px; */
+    max-width: 65%;
+    /* max-height: 10%; */
     background: rgb(222, 224, 229);
-    padding: 1rem;
-    border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.612);
+    border-radius: 20px;
+    padding: 1rem;
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: flex-start; */
+    /* max-width: 50%; */
 }
+
+.about-img{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.resizer-div{
+    height: 250px;
+    /* border: 1px solid red; */
+}
+.carousel-section img{
+/* border-radius: 20px; */
+/* width: 90%;
+height: 90%; */
+}
+
 .carousel {
     position: relative;
     overflow: hidden;
@@ -289,10 +311,21 @@
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 10px;
+    margin-right: 10px;
 } 
+@media (max-width : 425px) {
+    .skills-cards {
+        /* display: flex; */
+        /* flex-wrap: nowrap; */
+        gap: 10px;
+        /* justify-content: center; */
+        /* margin-left: 130px;
+        margin-right: 130px; */
+    } 
+}
 .skill-card {
+    margin: 10px;
     margin-bottom: 80px;
     background-color: snow;
     border: 2px dashed #0c0a9b;
@@ -356,8 +389,9 @@
     margin-bottom: 40px;
 }  
 .project-card {
-    margin: 10px;
-    width: 45%;
+    /* margin: 10px; */
+    /* max-width: 40%; */
+    margin: 40px;
     background-color: rgba(211, 248, 228, 0.881);
     border: 2px solid black ;
     border-radius: 10px;
@@ -451,32 +485,37 @@
 
 /* TESTIMONIALS PAGE */
 
-.testimonials-container {
+.testimonials-page{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     overflow: hidden;
     background-color: azure;
 }
-.testimonials-container h1{
+.testimonials-page h1{
+    padding-top: 25px;
     color: #014525;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-shadow: 2px 2px rgb(247, 8, 191);
 }  
-.testimonials-container h2{
-    margin-top: -33px;
+.testimonials-page h2{
+    /* padding-top: -20px; */
+    margin-top: -30px; 
     font-style: italic;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: #d31460;
     text-shadow: 1px 1px #000;
     margin-bottom: 50px;
+}
+pre{
+    font-size: 12px;
 }
 .testimonial-card {
     background-color: lavenderblush;
@@ -484,6 +523,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 700px;
+    width: 90%;
     padding: 1.5rem;
     margin: 20px;
     border: 3px solid #000000;
@@ -500,9 +540,7 @@
 .slide-from-right {
     animation: slideInRight 3s forwards;
 }
-/* .testimonial-card :hover ::after{
-    transform: scale(1.5);
-} */
+
 .testimonial-image-wrapper {
     width: 70px;
     height: 70px;
@@ -530,10 +568,10 @@
 } 
 .testimonial-author {
     font-size: 17px;
-    text-align: center;
+    text-align: right;
     color: #1400a7;
-    padding-left: 400px;
-    line-break: loose;
+    /* padding-left: 400px; */
+    /* line-break: loose; */
 }
 @keyframes slideInLeft {
     0% {
@@ -612,9 +650,10 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 100px;
+    width: 100px;
 } 
 .social-links a {
-    font-size: 1.3rem;
+    font-size: 100%;
     text-decoration: none;
 } 
 .right-section {

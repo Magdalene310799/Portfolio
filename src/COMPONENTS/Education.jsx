@@ -3,6 +3,8 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 import { FaGraduationCap, FaSchool, FaLaptopCode } from "react-icons/fa";
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 const Education = () => {
   const educationData = [

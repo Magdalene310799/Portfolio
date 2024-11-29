@@ -10,8 +10,8 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 const AboutMe = () => {
   return (
-    <div className="about-me-container">
-      <div className="about-me-content">
+    <div className="about-me-container row ">
+      <div className="col-12 col-md-6">
         <div className="about-me-text">
           <h1>PHYSICS, POETRY, PIXELS <br/>MY JOURNEY... </h1>
           <p>
@@ -47,8 +47,11 @@ const AboutMe = () => {
         </div>
        </div>
 
-    <div class="carousel-section">
-    <img src={photo1} alt="My Pic1" class="d-block w-100" />
+    <div className="about-img col">
+      <div className="resizer-div d-none d-md-block"></div>
+      <div class="carousel-section">
+        <img src={photo1} alt="My Pic1" class="d-block w-100" />
+      </div>
     </div>
    
    
